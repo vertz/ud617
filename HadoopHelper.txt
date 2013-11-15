@@ -1,0 +1,7 @@
+
+
+##########################
+#	 Part II         #
+##########################
+
+hadoop fs -cat output_logs/part-XXXXX | grep 'url'
