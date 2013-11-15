@@ -1,10 +1,9 @@
 #!/usr/bin/python
 
 # Format of each line is:
-# date\ttime\tstore name\titem description\tcost\tmethod of payment
+# %h %l %u %t \"%r\" %>s %b
 #
-# We want elements 2 (store name) and 4 (cost)
-# We need to write them out to standard output, separated by a tab
+# map reduce programe which determines the number of hits for each page in the site
 
 import sys
 
